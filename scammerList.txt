@@ -1,0 +1,31 @@
+Scammer Addresses:
+0xA4cf064D02E35Aed6340df50D0c9e121B16B1Bb6
+
+Scammer Twitter Accounts:
+@erikaptriprstia (1469727569037578240)
+@roostag2O (1551668137119981568)
+@ZiaruI01977 (1486547608281567236)
+
+"data": [
+        {
+            "created_at": "2021-12-11T17:55:54.000Z",
+            "description": "woman in Love with Web3.\n Holders of\n@GodHatesNFTees\n Ecosystem \n@Passengers_NFT and more.",
+            "id": "1469727569037578240",
+            "name": "Erika",
+            "username": "erikaptriprstia"
+        },
+        {
+            "created_at": "2022-07-25T20:38:29.000Z",
+            "description": "God is great",
+            "id": "1551668137119981568",
+            "name": "roojumper senoscott",
+            "username": "roostag2O"
+        },
+        {
+            "created_at": "2022-01-27T03:52:33.000Z",
+            "description": "Freelancer",
+            "id": "1486547608281567236",
+            "name": "K2",
+            "username": "ZiaruI01977"
+        }
+    ]

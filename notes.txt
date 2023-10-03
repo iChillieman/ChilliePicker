@@ -1,0 +1,13 @@
+When a "too many requests" (429) or rate-limiting error occurs, the frequency of making requests needs to be slowed down. When a rate limit error is hit, the x-rate-limit-reset: HTTP header can be checked to learn when the rate-limiting will reset. 
+
+
+HTTP headers and response codes
+Use the HTTP headers in order to understand where the application is at for a given rate limit, on the method that was just utilized.
+Note that the HTTP headers are contextual. When using application-only authentication, they indicate the rate limit for the application context. When using user-based authentication, they indicate the rate limit for that user context.
+x-rate-limit-limit: the rate limit ceiling for that given endpoint
+x-rate-limit-remaining: the number of requests left for the 15-minute window
+x-rate-limit-reset: the remaining window before the rate limit resets, in UTC epoch seconds
+ 
+When an application exceeds the rate limit for a given Twitter API endpoint, the API will return a HTTP 429 “Too Many Requests” response code, and the following error will be returned in the response body:
+
+{ "errors": [ { "code": 88, "message": "Rate limit exceeded" } ] } 
